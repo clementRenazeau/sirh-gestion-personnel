@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+
+<title>Les collaborateurs</title>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row justify-content-end">
+			<button type="submit" class="btn btn-outline-dark">Ajouter
+				un nouveau collaborateur</button>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<h1>Les collaborateurs</h1>
+		<div class="row">
+			<div class="col-md-auto">Rechercher un nom ou un prénom qui
+				commence par :</div>
+			<div class="col-md-auto">
+				<input class="form-control" type="text" id="text-nom">
+			</div>
+			<div class="col-md-auto">
+				<button type="submit" class="btn btn-outline-dark">Rechercher</button>
+			</div>
+			<div class="form-check col-md-auto offset-md-1">
+				<label class="form-check-label"> <input type="checkbox"
+					class="form-check-input"> Voir les collaborateurs
+					désactivés
+				</label>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-auto offset-md-2">Filtrer par département :</div>
+			<div class="form-group col-md-auto">
+				<select id="inputState" class="form-control">
+					<option selected>Tous</option>
+					<option>Comptabilité</option>
+					<option>Ressources Humaines</option>
+					<option>Informatique</option>
+				</select>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="card border-dark mb-4" style="max-width: 24rem;">
+			<div class="card-header">NOM Prenom</div>
+			<div class="card-body text-dark">
+				<h5 class="card-title">Dark card title</h5>
+				<p class="card-text">Some quick example text to build on the
+					card title and make up the bulk of the card's content.</p>
+			</div>
+		</div>
+
+	</div>
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+		integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+		crossorigin="anonymous"></script>
+	<script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
