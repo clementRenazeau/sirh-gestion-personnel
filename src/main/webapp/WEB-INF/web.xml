@@ -10,10 +10,10 @@
   </servlet>
 
   <servlet>
-  	<servlet-name>EditerCollaborateursController</servlet-name>
-  	<display-name>EditerCollaborateursController</display-name>
+  	<servlet-name>EditerCollaborateurController</servlet-name>
+  	<display-name>EditerCollaborateurController</display-name>
   	<description></description>
-  	<servlet-class>dev.sgp.web.EditerCollaborateursController</servlet-class>
+  	<servlet-class>dev.sgp.web.EditerCollaborateurController</servlet-class>
   </servlet>
 
   <servlet>
@@ -29,7 +29,7 @@
     </servlet-mapping>
 
     <servlet-mapping>
-    <servlet-name>EditerCollaborateursController</servlet-name>
+    <servlet-name>EditerCollaborateurController</servlet-name>
     <url-pattern>/collaborateurs/editer</url-pattern>
   </servlet-mapping>
 

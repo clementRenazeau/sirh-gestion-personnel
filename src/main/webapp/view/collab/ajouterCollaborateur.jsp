@@ -1,5 +1,6 @@
 <%@page import="java.util.List"%>
 <%@page import="dev.sgp.entite.Collaborateur"%>
+<%@page isELIgnored="false"%>
 <%@ page language="java" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -19,7 +20,7 @@
 					<label for="nom">Nom : </label>
 				</div>
 				<div class="col-4">
-					<input type="text" required id="nom" name="nom">
+					<input type="text" value="${nom}" }required id="nom" name="nom">
 				</div>
 			</div>
 			<div class="row">

@@ -13,6 +13,7 @@ public class Collaborateur {
 	private String emailPro;
 	private String photo;
 	private ZonedDateTime dateHeureCreation;
+	private Departement departement;
 	
 	public Collaborateur(){
 		
@@ -84,4 +85,13 @@ public class Collaborateur {
 	public void setDateHeureCreation(ZonedDateTime dateHeureCreation) {
 		this.dateHeureCreation = dateHeureCreation;
 	}
+
+	public Departement getDepartement() {
+		return departement;
+	}
+
+	public void setDepartement(Departement departement) {
+		this.departement = departement;
+	}
+	
 }

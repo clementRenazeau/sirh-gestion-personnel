@@ -9,13 +9,13 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class EditerCollaborateurController
  */
-public class EditerCollaborateursController extends HttpServlet {
+public class EditerCollaborateurController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public EditerCollaborateursController() {
+    public EditerCollaborateurController() {
         super();
         // TODO Auto-generated constructor stub
     }
